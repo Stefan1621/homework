@@ -1,0 +1,62 @@
+.form {
+    width: 400px;
+    height:auto;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+input{
+    display:block;
+    width:100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: lightgrey;
+}
+
+input[type=checkbox]{
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+
+.img1{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.img1:hover{
+    opacity: 0.5;
+}
+
+#form-title{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("New_map.jpg");
+    background-size: 100% 100%;
+    font-family: Inter;
+    backdrop-filter: blur(10px);
+    background-attachment: fixed;
+}
+
+.p {
+    text-align: center;
+    color:grey;
+}
