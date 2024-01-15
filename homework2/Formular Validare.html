@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formular de Înregistrare</title>
+  <link rel="stylesheet" type="text/css" href="validare.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Formular de Înregistrare</h1>
+    <form id="registrationForm" onsubmit="return validateForm()">
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" name="email">
+      <span id="emailError" class="error"></span>
+
+      <br>
+
+      <label for="password">Parolă:</label>
+      <input type="password" id="password" name="password">
+      <span id="passwordError" class="error"></span>
+
+      <br>
+
+      <label for="confirmPassword">Confirmare Parolă:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword">
+      <span id="confirmPasswordError" class="error"></span>
+
+      <br>
+
+      <input type="submit" value="Înregistrează-te">
+    </form>
+  </div>
+
+  <script src="validare.js"></script>
+</body>
+</html>
